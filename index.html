@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+    </head>
+    <body>
+    <form name="Calc" action="">
+        <script src="js/main.js"></script>
+
+<table summary="" border="1" bgcolor="darkgray">
+    <tr>
+    <th>
+        <input type="text"   name="Input" size="12" style="font-size:22px;background-color:yellowgreen""text" onkeypress="isInputNumber(event)" />
+    </th>
+    </tr>
+    <tr>
+    <th>
+        <table summary="">
+            <tr>
+            <th>
+                <table summary="">
+                    <tr>
+                    <th bgcolor="black" align="center">
+                      
+                       
+            <th valign="top">
+                <table summary="">
+                    <tr>
+                    <th bgcolor="black" valign="top" align="center">
+                        <input style="font-weight:normal;text-align:center;font-size:17px;width:40px;height:30px" type="button" name="plus"  value="+"  onclick="Calc.Input.value += '+'" />
+                        <input style="font-weight:normal;text-align:center;font-size:17px;width:40px;height:30px"  type="button" name="minus" value="&minus;" onclick="Calc.Input.value += '-'" />
+                    </th>
+                    </tr><tr>
+                    <th>
+                        <input style="font-weight:normal;text-align:center;font-size:17px;width:40px;height:30px"  type="button" name="times" value="x" onclick="Calc.Input.value += '*'" />
+                        <input style="font-weight:normal;text-align:center;font-size:17px;width:40px;height:30px"  type="button" name="div"   value="&frasl;" onclick="Calc.Input.value += '/'" />
+                    </th>
+                    </tr><tr>
+                    <th>
+                        <input style="font-weight:normal;text-align:center;font-size:17px;width:40px;height:30px"  type="button" name="pwr"  value="x²"  onclick="Calc.Input.value += '^2'" />
+                        <input style="font-weight:normal;text-align:center;font-size:17px;width:40px;height:30px"  type="button" name="sqrt"  value="%"   onclick="Calc.Input.value += '%'" />
+                    </th>
+                    </tr><tr>
+                    <th>
+                        <input style="font-weight:normal;text-align:center;font-size:17px;width:40px;height:30px" type="button" name="DoIt"  value="=" onclick="javascript:calculate();" />
+<input style="font-weight:normal;text-align:center;font-size:17px;width:40px;height:30px" type="button" name="clear"  value="C" onclick="Calc.Input.value = ''" />
+                    </th>
+                    </tr>
+                </table>
+            </th>
+            </tr>
+        </table>
+    </th>
+    </tr>
+</table>
+</form>    
+</body>
+</html>
