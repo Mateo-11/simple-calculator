@@ -2,13 +2,23 @@
   "name": "simple-calculator",
   "version": "1.0.0",
   "description": "",
-  "main": "no",
+  "main": "index.js",
+  "homepage":"https://github.io/mateo-11/simple-calculator",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mateo-11/simple-calculator.git"
+  },
+  "author": "Mateo Naz Jr.",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mateo-11/simple-calculator/issues"
+  },
+
   "dependencies": {
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^2.1.1"
   }
 }
